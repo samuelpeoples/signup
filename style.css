@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "odin";
+    src: url("./fonts/Norse-Bold.otf") format("truetype");
+}
+
+html, body{
+    box-sizing: border-box;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    padding: 10px 40px;
+}
+
+fieldset{
+    border: 0px;
+    flex-basis: 50%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.form-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 35rem;
+}
+
+label{
+    display: block;
+}
+
+input{
+    border-radius: .2rem;
+    padding: 4px 2px;
+    border: 1px solid lightgray;
+}
+input:user-valid{
+    border: 1px solid green;
+}
+input:focus{
+    border: 1px solid blue;
+}
+input:user-invalid{
+    border: 1px solid red;
+}
+label+input{
+    margin-bottom: 10px;
+}
+
+a{
+    color: white;
+}
+a:visited{
+    color: grey;
+}
+
+.submit{
+    background-color: rgb(41, 107, 58);
+    color: white;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: .5rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+.container{
+    flex: 1 1 0;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+}
+.input-section{
+    background-color: white;
+    box-shadow: 5px 0px 10px 2px grey;
+    margin: 20px 0px;
+}
+.logo-container{
+    height: 18vh;
+    margin-bottom: 55vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    padding: 20px;
+}
+.odin{
+    font-size: 8rem;
+    font-family: "odin",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner{
+    background-image: url("./images/ferns.avif");
+    height: 100%;
+    background-size: cover;
+    align-content: end;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.reference{
+    color: white;
+    margin: 1vh;
+}
+.bolded-text{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 12px 0px;
+}
+.descript{
+    max-width: 40rem;;
+}

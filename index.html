@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container banner">
+        <div class="logo-container odin">
+            <img style="height: inherit;" src="./images/odin.png" alt="odin">
+            <span>ODIN</span>
+        </div>
+
+        <article class="reference">
+            <span>Photo by <a href="">Halie West</a> on <a href="">UnSplash</a></span>
+        </article>
+
+    </div>
+
+    <main class="container hero">
+        <section class="descript bolded-text">
+            <span >This isn't real, it could be though? Sign up with us an get something cool, probably. Or just
+                satisfaction.</p>
+            <span>That works too I guess</p>
+        </section>
+        <section class="input-section">
+            <form action="#" method="get">
+                <legend class="bolded-text">
+                    Lets harvest that DATA!!!
+                </legend>
+                <div class="form-flex">
+                    <fieldset>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required maxlength="20">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" required required maxlength="20">
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" required pattern="[0-9]*" maxlength="10">
+
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </fieldset>
+                </div>
+            </form>
+        </section>
+        <section>
+            <form action="" method="post">
+                <input class="submit" type="submit" value="Submit"></input>
+            </form>
+
+            <p>Already have an account? <a href="">Log In!</a></p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
